@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="62.0" layoutY="47.0" prefHeight="51.0" prefWidth="337.0" text="STUDENT'S  INFORMATIONS">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Button fx:id="requestsButton" layoutX="144.0" layoutY="175.0" mnemonicParsing="false" text="Requests">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="logoutButton" layoutX="241.0" layoutY="175.0" mnemonicParsing="false" text="Logout">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

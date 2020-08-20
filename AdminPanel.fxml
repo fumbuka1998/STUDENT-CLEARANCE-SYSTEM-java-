@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="66.0" fitWidth="79.0" layoutX="248.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Mama/src/sample/avatar.jpg" />
+         </image>
+      </ImageView>
+      <TextField layoutX="159.0" layoutY="109.0" prefHeight="76.0" prefWidth="283.0" text="ADMIN PANEL">
+         <font>
+            <Font name="Arial Unicode MS" size="36.0" />
+         </font>
+      </TextField>
+      <Button layoutX="65.0" layoutY="218.0" mnemonicParsing="false" text="HOME">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="159.0" layoutY="218.0" mnemonicParsing="false" text="STUDENTS">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="281.0" layoutY="218.0" mnemonicParsing="false" text="REQUESTS">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="404.0" layoutY="218.0" mnemonicParsing="false" text="LOGOUT">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <TableView layoutX="6.0" layoutY="271.0" prefHeight="49.0" prefWidth="574.0">
+        <columns>
+          <TableColumn prefWidth="105.0" text="FULL NAME" />
+          <TableColumn prefWidth="106.0" text="PHONE NO" />
+            <TableColumn prefWidth="149.0" text="ROLL NO" />
+            <TableColumn prefWidth="106.0" text="USER NAME" />
+            <TableColumn prefWidth="107.0" text="PASSWORD" />
+        </columns>
+      </TableView>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>

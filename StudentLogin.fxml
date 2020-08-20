@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?language javascript?>
+
+<GridPane alignment="center" hgap="10" prefHeight="400.0" prefWidth="600.0" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+
+   <!-- <padding><Insets top="10" right="25" bottom="10" left="25"></Insets> </padding>-->
+
+  <!--  <gridLinesVisible>true</gridLinesVisible>-->
+  <!--  designing the layout of the student login page -->
+    <Text text="WELCOME STUDENT" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="0" />
+
+    <Label text="User Email:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+
+    <TextField fx:id="emailField" promptText="enter email----" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+    <Label text="Password:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+
+    <PasswordField fx:id="passwordField" promptText="enter your password" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+    <HBox alignment="bottom_right" prefHeight="17.0" prefWidth="139.0" spacing="10" GridPane.columnIndex="1" GridPane.rowIndex="4">
+        <Button fx:id="signinButton" onAction="#handleSubmitButtonAction" onMouseClicked="callPage" text="Sign In" textFill="#941919">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+    </HBox>
+
+
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+
+
+</GridPane>
