@@ -1,13 +1,19 @@
 package sample;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.text.Text;
+import javafx.scene.control.Button;
+import javafx.stage.Stage;
+import javafx.event.ActionEvent;
 
 public class Controller {
 
+    @FXML
+    public Button cancelButton;
 
-    @FXML protected void handleSubmitButtonAction(ActionEvent event){
+    public void cancelButtonOnAction(ActionEvent event){
+        Stage stage = (Stage) cancelButton.getScene().getWindow();
+        stage.close();
 
     }
+
 }
